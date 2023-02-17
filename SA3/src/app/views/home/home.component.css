@@ -1,0 +1,8 @@
+.banner-f1 {
+
+    height: 607px;
+    background-image: url(/SA3/src/assets/img/banner_f1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
