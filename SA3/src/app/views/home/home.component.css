@@ -25,6 +25,9 @@
 
 .conteudo-banner a {
 
+    padding: 15px;
+    background-color: #c31616;
+    border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: 700;
