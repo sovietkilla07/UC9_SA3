@@ -52,3 +52,17 @@
     align-items: center;
     height: 100%;
 }
+
+.jogos {
+
+    background-color: black;
+    height: 120px;
+}
+
+.posicionamento-jogos {
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
