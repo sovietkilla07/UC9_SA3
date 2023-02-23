@@ -67,7 +67,33 @@
     align-items: center;
 }
 
+.alinhar-centro {
+
+    height: 500px;
+}
+
 .sobre {
 
     background-image: url(/assets/img/background-ezreal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 489px;
 }
+
+.conteudo-sobre {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto {
+
+    height: 100%;
+    font-family: 'Roboto';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
