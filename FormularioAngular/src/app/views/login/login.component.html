@@ -1,11 +1,11 @@
-<form action="">
+<form #userForm="ngForm">
 
-    
+
 <label for="email">Email:</label>
-<input type="email" name="email" id="email">
+<input type="email" id="email" ngModel>
 
 <label for="senha">Senha:</label>
-<input type="password" name="senha" id="senha">
+<input type="password" id="senha" ngModel>
 
 <button type="submit">Enviar</button>
 
