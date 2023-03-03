@@ -1,0 +1,51 @@
+.links-footer {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+
+    color: white;
+
+}
+
+.links h2 {
+
+    font-size: 24px;
+    font-family: 'Titillium Web';
+    font-weight: 700;
+}
+
+.links a {
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+
+footer {
+
+    background-color: black;
+}
+
+.rodape {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.social h2 {
+
+    color: white;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.redes-sociais h2 {
+
+    font-size: 23px;
+    font-weight: 700;
+}
