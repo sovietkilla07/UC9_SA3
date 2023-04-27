@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Noticias } from '../models/noticias'
 
 @Injectable({
   providedIn: 'root'
@@ -10,8 +12,8 @@ export class NoticiasService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getNoticias():Observable<Noticia[]>{
+  getNoticias():Observable<Noticias[]>{
 
-    return this.httpClient.get<Noticia[]>(this.url)
+    return this.httpClient.get<Noticias[]>(this.url)
   }
 }
